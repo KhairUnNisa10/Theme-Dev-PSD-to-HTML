@@ -412,7 +412,7 @@ footer li{
 	}
 }
 
-@media screen and (max-width: 768px){}
+@media screen and (max-width: 768px){
 	.list .img{
 		height: 100px;
 		width: 100%;
