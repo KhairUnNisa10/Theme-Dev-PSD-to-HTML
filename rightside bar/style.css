@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.img img {
+    width: 40px;
+    border-radius: 74px;
+    height: 40px;
+
+}
+
+.img p {
+    margin-left: 20px;
+}
+
+img {
+    width: 934px;
+    height: 387px;
+    object-fit: cover;
+}
+
+span {
+    position: relative;
+    left: 30px;
+    top: 13px;
+    margin-bottom: 14px;
+}
+
+.span {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.span>span {
+    padding: 10px;
+    cursor: pointer;
+    left: 0;
+    top: 10px;
+    margin-bottom: 0;
+}
+
+.caption {
+    background-color: #4200ff;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    width: 144px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.two {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 61.5%;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.fa-brands {
+    width: 60px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #fff700;
+    fill: white;
+    stroke: white;
+    filter: invert(1);
+    margin-bottom: 10px;
+}
+
+.fa-twitter {
+    background: no-repeat;
+    color: beige;
+    padding: 10px;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.testimonal div .icon-box {
+    display: flex;
+}
+
+.testimonal {
+    width: 61%;
+}
+
+.testimonal>div {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonal>div>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 59px;
+    margin-right: 20px;
+}
+
+.paragraph-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.image-box-1>img {
+    width: 267px;
+    height: 267px;
+}
+
+.box-color {
+    background-color: rgb(233, 233, 233);
+    padding: 40px;
+}
+
+.box-color h3 {
+    line-height: 30px;
+    font-weight: 400;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.main-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.post .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post .img .caption {
+    align-self: flex-end;
+    background-color: #4200ff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.post .img {
+    height: 229px;
+    width: 374px;
+    background-color: #e0e3f4;
+}
+
+.button {
+    DISPLAY: FLEX;
+    JUSTIFY-CONTENT: SPACE-BETWEEN;
+    ALIGN-ITEMS: CENTER;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.button .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button .icon-box i {
+    margin-bottom: 0;
+    margin: 10px;
+}
+
+.button .icon-box h2 {
+    margin-bottom: 0;
+}
+
+.b-1 button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0008FF;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+.sec-hea {
+    width: 83%;
+}
+
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0008FF;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 50px;
+}
+
+.image-box-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 277px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.box h3 {
+    margin-top: 10px;
+}
+
+.box .icon-box {
+    display: flex;
+}
+
+.box span {
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+
+.most-viewed-post h1 {
+    padding: 0;
+    font-size: 21px;
+    margin-top: 40px;
+    border-bottom: 1px solid #80808042;
+    width: 272px;
+}
+
+.most-viewed-post img {
+    width: 83px;
+    height: 83px;
+}
+
+.m-v-p-1 {
+    display: flex;
+    justify-content: center;
+    width: 277px;
+}
+
+.m-v-p-1 img {
+    margin-right: 15px;
+}
+
+.m-v-p-1>.post-text>h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.post-text p {
+    color: blue;
+}
+
+.most-viewed-post {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.social-list h1 {
+    padding: 0;
+    font-size: 21px;
+    margin-top: 40px;
+    border-bottom: 1px solid #80808042;
+    width: 272px;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.twitter .fa-twitter {
+    margin-top: 13px;
+    color: #ff5500;
+}
+
+.twitter p {
+    margin-left: 5px;
+}
+
+.social-list-connected {
+    width: 277px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.our-instagram {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 277px;
+}
+
+.instagram h1 {
+    padding: 0;
+    font-size: 21px;
+    margin-top: 20px;
+    border-bottom: 1px solid #80808042;
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+
+.our-instagram img {
+    width: 100px;
+    height: 100px;
+}
+
+.side-bar-img img {
+    width: 339px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.side-bar-img {
+    width: 277px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    main{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .box{
+        width: 100%;
+    }
+    .m-v-p-1 {
+        width: 100%;
+    }
+}

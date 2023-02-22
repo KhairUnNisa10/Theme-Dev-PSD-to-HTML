@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+ padding-bottom: 40px;
+}
+
+h1{
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.img img{
+    width: 40px;
+    border-radius: 74px;
+    height: 40px;
+
+}
+
+.img p {
+    margin-left: 20px;
+}
+
+img {
+    width: 934px;
+    height: 387px;
+    object-fit: cover;
+    background-image: none;
+ 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 61%;
+}
+
+span{
+    position: relative;
+    left: 30px;
+    top: 13px;
+    margin-bottom: 14px;
+}
+
+.span{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.span > span{
+    padding: 10px;
+    cursor: pointer;
+    left: 0;
+    top: 10px;
+    margin-bottom: 0;
+}
