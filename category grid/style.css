@@ -19,7 +19,7 @@ body {
 .main-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
+    /*width: 80%;*/
     justify-items: center;
     align-items: center;    
     gap: 30px;
@@ -28,7 +28,8 @@ body {
 
 h1{
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    font-size: 32px;
 }
 
 .span{
@@ -37,8 +38,9 @@ h1{
 }
 
 span{
-    padding: 10px;
+    padding: 0px 20px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 .img {
@@ -56,14 +58,56 @@ span{
 }
 
 .img {
-    height: 229px;
+    height: 250px;
     width: 374px;
     background-color: #e0e3f4;
 }
+
+.img-icon i{
+    color: #fff;
+    background-color: #5e94fd;
+    padding: 8px;
+    margin: 10px;
+}
+
+.post{
+    margin-bottom: 20px;
+}
+
+.post h3{
+    margin: 20px 0 10px;
+}
+
+.post p{
+    font-size: 13px;
+    color: #979095;
+}
+
+.post strong{
+    color: #000;
+}
+
+@media screen and (max-width: 440px){
+    .main-1{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 767px) {
-    .main{
+    .main-1{
         display: grid;
         grid-template-columns: 1fr;
+        width: 100%;
+    }
+    span {
+        padding: 7px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1220px) {
+    .main-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
     }
     span {
