@@ -8,11 +8,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.main {
-    /*width: 90%;*/
-    margin: auto;
-}
-
 main{
     display: flex;
     flex-direction: row;
@@ -499,6 +494,18 @@ button {
         width: 250px;
         height: 200px;
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    main{
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+
+    .main-section{
+        padding-right: 0;
     }
 }
 
